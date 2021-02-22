@@ -42,45 +42,55 @@ Partial Class WeeklyPayApp
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(198, 61)
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label1.Location = New System.Drawing.Point(178, 57)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(72, 13)
+        Me.Label1.Size = New System.Drawing.Size(101, 21)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Weekly Sales"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(198, 123)
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label2.Location = New System.Drawing.Point(178, 120)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(60, 13)
+        Me.Label2.Size = New System.Drawing.Size(84, 21)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Total Sales"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(198, 180)
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label3.Location = New System.Drawing.Point(229, 177)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(25, 13)
+        Me.Label3.Size = New System.Drawing.Size(33, 21)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Tax"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(198, 262)
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label4.Location = New System.Drawing.Point(163, 259)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(109, 13)
+        Me.Label4.Size = New System.Drawing.Size(154, 21)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Lowest Weekly Sales"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(196, 320)
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label5.Location = New System.Drawing.Point(163, 316)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(111, 13)
+        Me.Label5.Size = New System.Drawing.Size(158, 21)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Highest Weekly Sales"
         '
@@ -121,36 +131,46 @@ Partial Class WeeklyPayApp
         '
         'btnAddSale
         '
-        Me.btnAddSale.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.btnAddSale.BackColor = System.Drawing.Color.Navy
+        Me.btnAddSale.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddSale.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnAddSale.Location = New System.Drawing.Point(558, 61)
         Me.btnAddSale.Name = "btnAddSale"
-        Me.btnAddSale.Size = New System.Drawing.Size(88, 40)
+        Me.btnAddSale.Size = New System.Drawing.Size(88, 49)
         Me.btnAddSale.TabIndex = 11
         Me.btnAddSale.Text = "Add Sale"
         Me.btnAddSale.UseVisualStyleBackColor = False
         '
         'btnTax2
         '
+        Me.btnTax2.BackColor = System.Drawing.Color.Navy
+        Me.btnTax2.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTax2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnTax2.Location = New System.Drawing.Point(558, 145)
         Me.btnTax2.Name = "btnTax2"
-        Me.btnTax2.Size = New System.Drawing.Size(88, 38)
+        Me.btnTax2.Size = New System.Drawing.Size(88, 52)
         Me.btnTax2.TabIndex = 12
         Me.btnTax2.Text = "2% Tax"
-        Me.btnTax2.UseVisualStyleBackColor = True
+        Me.btnTax2.UseVisualStyleBackColor = False
         '
         'btnTax5
         '
+        Me.btnTax5.BackColor = System.Drawing.Color.Navy
+        Me.btnTax5.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTax5.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnTax5.Location = New System.Drawing.Point(558, 219)
         Me.btnTax5.Name = "btnTax5"
-        Me.btnTax5.Size = New System.Drawing.Size(88, 37)
+        Me.btnTax5.Size = New System.Drawing.Size(88, 46)
         Me.btnTax5.TabIndex = 13
         Me.btnTax5.Text = "5% Tax"
-        Me.btnTax5.UseVisualStyleBackColor = True
+        Me.btnTax5.UseVisualStyleBackColor = False
         '
         'btnExit
         '
-        Me.btnExit.BackColor = System.Drawing.Color.Red
-        Me.btnExit.Location = New System.Drawing.Point(669, 376)
+        Me.btnExit.BackColor = System.Drawing.Color.Navy
+        Me.btnExit.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnExit.Location = New System.Drawing.Point(663, 381)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(83, 42)
         Me.btnExit.TabIndex = 14
@@ -160,16 +180,18 @@ Partial Class WeeklyPayApp
         'lblclickCount
         '
         Me.lblclickCount.AutoSize = True
+        Me.lblclickCount.Font = New System.Drawing.Font("Segoe UI Symbol", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblclickCount.Location = New System.Drawing.Point(558, 288)
         Me.lblclickCount.Name = "lblclickCount"
-        Me.lblclickCount.Size = New System.Drawing.Size(39, 13)
+        Me.lblclickCount.Size = New System.Drawing.Size(82, 21)
         Me.lblclickCount.TabIndex = 15
-        Me.lblclickCount.Text = "Label6"
+        Me.lblclickCount.Text = "Clickcount"
         '
         'WeeklyPayApp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.RoyalBlue
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.lblclickCount)
         Me.Controls.Add(Me.btnExit)
