@@ -52,6 +52,7 @@ Partial Class frmWeeklyPay2
         '
         Me.lblWeeklyPay.AutoSize = True
         Me.lblWeeklyPay.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblWeeklyPay.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.lblWeeklyPay.Location = New System.Drawing.Point(126, 77)
         Me.lblWeeklyPay.Name = "lblWeeklyPay"
         Me.lblWeeklyPay.Size = New System.Drawing.Size(90, 20)
@@ -62,6 +63,7 @@ Partial Class frmWeeklyPay2
         '
         Me.lblPercentageIncrease.AutoSize = True
         Me.lblPercentageIncrease.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPercentageIncrease.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.lblPercentageIncrease.Location = New System.Drawing.Point(126, 157)
         Me.lblPercentageIncrease.Name = "lblPercentageIncrease"
         Me.lblPercentageIncrease.Size = New System.Drawing.Size(155, 20)
@@ -70,7 +72,7 @@ Partial Class frmWeeklyPay2
         '
         'btnCalculate
         '
-        Me.btnCalculate.BackColor = System.Drawing.Color.Lime
+        Me.btnCalculate.BackColor = System.Drawing.Color.ForestGreen
         Me.btnCalculate.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCalculate.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCalculate.ForeColor = System.Drawing.SystemColors.ControlLightLight
@@ -83,7 +85,7 @@ Partial Class frmWeeklyPay2
         '
         'btnExit
         '
-        Me.btnExit.BackColor = System.Drawing.Color.Red
+        Me.btnExit.BackColor = System.Drawing.Color.ForestGreen
         Me.btnExit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnExit.ForeColor = System.Drawing.SystemColors.ControlLightLight
@@ -106,6 +108,7 @@ Partial Class frmWeeklyPay2
         '
         Me.lblNewPay.AutoSize = True
         Me.lblNewPay.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNewPay.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.lblNewPay.Location = New System.Drawing.Point(126, 254)
         Me.lblNewPay.Name = "lblNewPay"
         Me.lblNewPay.Size = New System.Drawing.Size(69, 20)
@@ -116,7 +119,7 @@ Partial Class frmWeeklyPay2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.LightGreen
+        Me.BackColor = System.Drawing.Color.LimeGreen
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.lblNewPay)
         Me.Controls.Add(Me.txtNewPay)

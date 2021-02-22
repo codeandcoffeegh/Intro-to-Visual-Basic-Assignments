@@ -1,6 +1,7 @@
 ﻿Public Class frmWeeklyPay2
+    Dim weeklyPay As Double
     Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
-        Dim newPay, weeklyPay, percentage, percentageIncrease As Double
+        Dim percentage, newPay, percentageIncrease As Double
         Double.TryParse(txtWeeklyPay.Text, weeklyPay)
         Double.TryParse(txtPercentageIncrease.Text.TrimEnd(CChar("%")), percentage)
 
