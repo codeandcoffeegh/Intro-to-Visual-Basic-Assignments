@@ -9,4 +9,6 @@ Annual Commission Question
 As a Marketing Executive of Zenith Bank, Kwadjo receives an annual commission which is calculated by multiplying his annual sales by a commission rate.
  He needs a program that will calculate and display his annual commission
 
-
+Grade Finder Question
+Students in the BIT Level 300 class optained various grades in a Mid sem exam. A computer program is needed to find the highest and lowest class score.
+Create an algorithm for the computer program needed to solve the above problem
